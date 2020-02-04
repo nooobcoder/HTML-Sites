@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forms-HTML</title>
+<link rel="stylesheet" type="text/css" href="Styles Forms-HTML.css">
+</head>
+<body bgcolor="#bed4f7">
+<h1>HTML Forms Tutorial</h1>
+<center>
+  <p>Select your favourite browser</p>
+  <br>
+  <form>
+    <select name="Browser" style="border-bottom-left-radius:8px; border-top-right-radius: 8px;">
+      <option value="google_chrome">Google Chrome</option>
+      <option value="mozilla_firefox">Mozilla Firefox</option>
+      <option value="apple_safari">Safari Browser</option>
+      <option value="torch_browser">Torch Browser</option>
+      <option value="Opera">Opera</option>
+      <option value="tor_browser">Tor Browser</option>
+      <option value="brave_browser">Brave Browser</option>
+      <option value="ucbrowser">UC Browser</option>
+    </select>
+    <p>Select all the colors that are your favorite<b>(hold ctrl to select)</b></p>
+    <select name="Favorite_Colors" multiple="multiple" size="3" style="height: auto;">
+      <option value="Red">Red</option>
+      <option value="Green">Green</option>
+      <option value="Blue">Blue</option>
+    </select>
+  </form>
+  <br>
+  <br>
+</center>
+<fieldset style="padding-bottom: 15px;">
+  <legend class="rainbow">Username and Password</legend>
+  <form action="" method="get">
+    <p>Username
+      <input type="text" name="Username" height="20px" maxlength="30" width="40px" id="username" class="field_label" required="Username Required">
+    </p>
+    <span>Password</span>
+    <input type="password" name="Password" width="40px" height="20px" id="password" class="field_label">
+    <br>
+    <div class="button">
+      <button style="">SUBMIT</button>
+    </div>
+  </form>
+</fieldset>
+<br>
+<br>
+<p>
+<fieldset class="rainbow">
+  <legend>User Feedback</legend>
+  <form action="" method="get">
+    <textarea style="font-size: 16px; text-align: center;font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'; border-radius: 10px; padding-left: 8px; padding-right: 8px; box-shadow: 5px 8px 25px #8648db; width: 95%; color: gray;">Please provide your valuable feedback.</textarea>
+  </form>
+</fieldset>
+<br>
+<br>
+</p>
+<p>
+<fieldset >
+  <legend class="rainbow">Quick Quiz</legend>
+  <form>
+    <ol start="1">
+      <p id="question1">
+      <li><b>The "Corona" virus originated from which country?</b></li>
+      <br>
+      <input type="radio" value="India"/>
+      India<br>
+      <input type="radio" value="China"/>
+      China<br>
+      <input type="radio" value="Vienna">
+      Vienna<br>
+      <input type="radio" value="Ghana">
+      Ghana<br>
+      </p>
+      <p id="question2"> <br>
+      <li><b>Which of these is not a windows operating system?</b></li>
+      <br>
+      <input type="radio" value="Windows XP">
+      Windows XP
+      <input type="radio" value="Windows 7">
+      Windows 7<br>
+      <input type="radio" value="Ubuntu">
+      Ubuntu
+      <input type="radio" value="Windows 8.1">
+      Windows 8.1
+      </p>
+    </ol>
+  </form>
+</fieldset>
+</p>
+<p><br>
+<fieldset>
+  <legend class="rainbow">Share Results</legend>
+  <p style="text-align: center;font-family:'Courier New';">SHARE YOUR RESULTS TO</p>
+  <div class="share_optons">
+    <input type="checkbox" value="Facebook">
+    Facebook
+    <input type="checkbox" value="E-Mail">
+    E-Mail
+    <input type="checkbox" value="Twitter">
+    Twitter
+    <input type="checkbox" value="Copy URL">
+    Copy URL </div>
+  <br>
+  <div class="submit_button">
+    <center>
+      <button style="text-transform: uppercase;border-radius: 12px; align-self: center; font-feature-settings: normal; font-size: 17px;">SHARE</button>
+    </center>
+  </div>
+</fieldset>
+</p>
+<br>
+<fieldset  style="margin-left: 15%; margin-right: 15%;">
+  <legend class="rainbow">Student's Attendance</legend>
+  <p>
+  <table border="1px solid black" align="center">
+    <tr>
+      <th>Serial No.</th>
+      <th colspan="2">Student's Name</th>
+      <th>Attendance</th>
+      <th>Attendance Blocked</th>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Ankur</td>
+      <td>Paul</td>
+      <td style=" padding: 0px;"><center>
+          <form>
+            <select name="Attendance" style="width: 100%;">
+              <option value="Present">Present</option>
+              <option value="Absent">Absent</option>
+            </select>
+          </form>
+        </center></td>
+      <td><center>
+          <form>
+            <input type="radio" value="Yes">
+            Yes
+            <input type="radio" value="No" checked="true">
+            No
+          </form>
+        </center></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>John</td>
+      <td>Smith</td>
+      <td style=" padding: 0px;"><center>
+          <form>
+            <select name="Attendance" style="width: 100%;">
+              <option value="Present">Present</option>
+              <option value="Absent">Absent</option>
+            </select>
+          </form>
+        </center></td>
+      <td><center>
+          <form>
+            <input type="radio" value="Yes">
+            Yes
+            <input type="radio" value="No" checked="true">
+            No
+          </form>
+        </center></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Aakash</td>
+      <td>Kundu</td>
+      <td style=" padding: 0px;"><center>
+          <form>
+            <select name="Attendance" style="width: 100%;">
+              <option value="Present">Present</option>
+              <option value="Absent">Absent</option>
+            </select>
+          </form>
+        </center></td>
+      <td><center>
+          <form>
+            <input type="radio" value="Yes">
+            Yes
+            <input type="radio" value="No" checked="true">
+            No
+          </form>
+        </center></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Tapabrata</td>
+      <td>Rana</td>
+      <td style=" padding: 0px;"><center>
+          <form>
+            <select name="Attendance" style="width: 100%;">
+              <option value="Present">Present</option>
+              <option value="Absent">Absent</option>
+            </select>
+          </form>
+        </center></td>
+      <td><center>
+          <form>
+            <input type="radio" value="Yes">
+            Yes
+            <input type="radio" value="No" checked="true">
+            No
+          </form>
+        </center></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Subhodeep</td>
+      <td>Ghosh</td>
+      <td style=" padding: 0px;"><center>
+          <form>
+            <select name="Attendance" style="width: 100%;">
+              <option value="Present">Present</option>
+              <option value="Absent">Absent</option>
+            </select>
+          </form>
+        </center></td>
+      <td><center>
+          <form>
+            <input type="radio" value="Yes">
+            Yes
+            <input type="radio" value="No" checked="true">
+            No
+          </form>
+        </center></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Aneesha</td>
+      <td>Goswami</td>
+      <td style=" padding: 0px;"><center>
+          <form>
+            <select name="Attendance" style="width: 100%;">
+              <option value="Present">Present</option>
+              <option value="Absent">Absent</option>
+            </select>
+          </form>
+        </center></td>
+      <td><center>
+          <form>
+            <input type="radio" value="Yes">
+            Yes
+            <input type="radio" value="No" checked="true">
+            No
+          </form>
+        </center></td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Anushka</td>
+      <td>Chaterjee</td>
+      <td style=" padding: 0px;"><center>
+          <form>
+            <select name="Attendance" style="width: 100%;">
+              <option value="Present">Present</option>
+              <option value="Absent">Absent</option>
+            </select>
+          </form>
+        </center></td>
+      <td><center>
+          <form>
+            <input type="radio" value="Yes">
+            Yes
+            <input type="radio" value="No" checked="true">
+            No
+          </form>
+        </center></td>
+    </tr>
+  </table>
+  </p>
+</fieldset>
+<p>
+<fieldset>
+  <legend class="rainbow">File Upload</legend>
+  <form method="post" action="">
+    <input type="file" name="upload_file" value="File">
+    <br>
+    <input type="submit" value="Upload" class="button">
+    <button><img src="https://firebasestorage.googleapis.com/v0/b/forms-website-ee276.appspot.com/o/add_button.jpg?alt=media&token=617c3f69-c05e-4512-9f27-7d6bdf97a2b3" alt="add_image"></button>
+  </form>
+	<!-- Used a label tag to add label to the tag used post this-->
+  <label for="Submit Button" class="rainbow">
+	  Submit Button:
+    <button class="rainbow">SUBMIT</button>
+  </label>
+</fieldset>
+
+<!-- Hidden Input Types
+type="hidden"
+This example also shows a hidden form control. These form controls are not shown on the
+page (although you can see them if you use the View Source option in the browser). They allow web
+page authors to add values to forms that users cannot see. For example, a web page author
+might use a hidden field to indicate which page the user was on when they submitted a form.-->
+
+<input type="hidden" name="bookmark" value="lyrics" />
+</p>
+<br>
+<br>
+<br>
+<div style="text-align: right; font-size: 12px;">Made in <a href="https://www.india.gov.in/" target="new">India</a> by <b>Ankur Paul</b> <i>Always </i>&#x1F30F;<i>ing</i></div>
+</body>
+</html>

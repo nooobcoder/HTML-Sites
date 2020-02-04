@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Table of Contents - Links
+<link rel="icon" href="http://i58.tinypic.com/302rtyg.png" type="image/png">
+</title>
+<style>
+	body{
+		background-color: coral;
+	}
+	h2,li{
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	}
+	p{
+		font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	}
+	</style>
+</head>
+<body>
+<h1>Table of Contents</h1>
+<ul>
+  <h4>
+  <li><a href="#topic1">Introduction</a></li>
+  <li><a href="#topic2">The Basics of a C++ Program</a></li>
+  <li><a href="#topic3">Comments in C++</a> </li>
+  </h4>
+</ul>
+	<h2 id="topic1"><mark>Introduction</mark></h2>
+<p>These same six points are also true about programming. Let us take the cooking analogy
+  one step further. Suppose you need to teach someone how to become a chef. How
+  would you go about it? Would you first introduce the person to good food, hoping
+  that a taste for good food develops? Would you have the person follow recipe after
+  recipe in the hope that some of it rubs off? Or would you first teach the use of tools
+  and the nature of ingredients, the foods and spices, and explain how they fit together?
+  Just as there is disagreement about how to teach cooking, there is disagreement about
+  how to teach programming.
+  Learning a programming language is like learning to become a chef or learning to play
+  a musical instrument. All three require direct interaction with the tools. You cannot
+  become a good chef just by reading recipes. Similarly, you cannot become a musician
+  by reading books about musical instruments. The same is true of programming. You
+  must have a fundamental knowledge of the language, and you must test your programs
+  on the computer to make sure that each program does what it is supposed to do.</p>
+<br>
+	<h2 id="topic2"><mark>The Basics of a C++ Program</mark></h2>
+<p> In the previous section, we gave an example of a C11 program and also identified
+  certain parts of the program. In general, a C11 program is a collection of one or
+  more subprograms, called functions. Roughly speaking, a subprogram or a function
+  is a collection of statements, and when it is activated, or executed, it accomplishes
+  something. Some functions, called predefined or standard functions, are already
+  The Basics of a C++ Program | 33
+  34 | Chapter 2: Basic Elements of C++
+  written and are provided as part of the system. But to accomplish most tasks, programmers
+  must learn to write their own functions.
+  Every C11 program has a function called main. Thus, if a C11 program has only
+  one function, it must be the function main. Until Chapter 6, other than using some
+  of the predefined functions, you will mainly deal with the function main. By the end
+  of this chapter, you will have learned how to write programs consisting only of the
+  function main.
+  If you have never seen a program written in a programming language, the C11 program
+  in Example 2-1 may look like a foreign language. To make meaningful sentences
+  in a foreign language, you must learn its alphabet, words, and grammar. The same is
+  true of a programming language. To write meaningful programs, you must learn the
+  programming language’s special symbols, words, and syntax rules. The syntax rules
+  tell you which statements (instructions) are legal or valid, that is, which are accepted
+  by the programming language and which are not. You must also learn semantic rules,
+  which determine the meaning of the instructions. The programming language’s rules,
+  symbols, and special words enable you to write programs to solve problems.
+  Programming language: A set of rules, symbols, and special words.
+  In the remainder of this section, you will learn about some of the special symbols of
+  a C11 program. Additional special symbols are introduced as other concepts are
+  encountered in later chapters. Similarly, syntax and semantic rules are introduced
+  and discussed throughout the book. </p>
+	<h2 id="topic3"><mark>Comments in C++</mark></h2>
+<p>The program that you write should be clear not only to you, but also to the reader of
+  your program. Part of good programming is the inclusion of comments in the program.
+  Typically, comments can be used to identify the authors of the program, give
+  the date when the program is written or modified, give a brief explanation of the
+  program, and explain the meaning of key statements in a program. In the programming
+  examples, for the programs that we write, we will not include the date when the
+  program is written, consistent with the standard convention for writing such books.
+  Comments are for the reader, not for the compiler. So when a compiler compiles a
+  program to check for the syntax errors, it completely ignores comments. Throughout
+  this book, comments are shown in green.
+  The program in Example 2-1 contains the following comments:
+  //**************************************************************
+  // Given the length and width of a rectangle, this C++ program
+  // computes and outputs the perimeter and area of the rectangle.
+  //**************************************************************
+  There are two common types of comments in a C11 program—single-line comments
+  and multiple-line comments.
+  2
+  Single-line comments begin with // and can be placed anywhere in the line. Everything
+  encountered in that line after // is ignored by the compiler. For example, consider
+  the following statement:
+  cout << "7 + 8 = " << 7 + 8 << endl;
+  You can put comments at the end of this line as follows:
+  cout << "7 + 8 = " << 7 + 8 << endl; //prints: 7 + 8 = 15
+  This comment could be meaningful for a beginning programmer.
+  Multiple-line comments are enclosed between /* and */. The compiler ignores anything
+  that appears between /* and */. For example, the following is an example of a
+  multiple-line comment:
+  /*
+  You can include comments that can
+  occupy several lines.
+  */
+  In multiple-line comments, many programmers use single-line comments on every
+  line to make the comments stand out more to the reader (as was done in the program
+  in Example 2-1).</p>
+</body>
+</html>
