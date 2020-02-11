@@ -1,0 +1,11 @@
+/* add your CSS here */
+li {
+  list-style-type: none;
+  font-style: italic;
+}
+h3,img,li{
+	border: 2px dashed salmon;
+}
+span {
+  font-weight: bold;
+}
