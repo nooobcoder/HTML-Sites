@@ -1,0 +1,36 @@
+body {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 20px solid #bdc3c7;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.date {
+    text-transform: uppercase;
+    color: #3498db;
+    font-size: 20px;
+}
+
+.blockquote {
+    text-align: justify-all;
+    border-left: 3px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+h2 {
+    font-weight: bolder;
+    color: #2c3e50;
+}
+
+.blog_content {
+    padding-bottom: 15px;
+}
+
+.blog_content:nth-of-type(1) {
+    border-bottom: 1px solid #bdc3c7;
+}
