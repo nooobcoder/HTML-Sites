@@ -1,0 +1,12 @@
+.blog_brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-left: 1.66%;
+    text-transform: uppercase;
+}
+
+img {
+    margin: 1.66%;
+    width: 30%;
+    float: left;
+}
